@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.main-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-sec video{
+    width: 100vw;
+    position: relative;
+}
+.sub-sec h1{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    font-size: 100px;
+    color: white; 
+    z-index: 1;
+}
+
+.sub-sec nav ul{
+    position: absolute;
+    right:20%;
+    top: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.sub-sec nav ul a{
+    text-decoration: none;
+    color: white;
+}
+.sub-sec nav ul a:hover{
+    text-decoration: underline white;
+
+}
+.section-1{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 30px;
+    position: relative;
+}
+.section-1 h2{
+    font-size: 50px;
+    text-decoration: underline;
+}
+.section-1 p{
+    font-size: 35px;
+    line-height: 40px;
+}
+.section-2{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+}
+.section-2 h2{
+    font-size: 50px;
+    text-decoration: underline;
+}
+.section-2 p{
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.section-3{
+    margin-top: 30px;
+}
+.section-3 h2{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.section-3 img{
+    margin-left: 50px;
+}
+
+.section-4{
+    margin-top: 30px;
+}
+
+.section-4 h2{
+    font-size: 50px;
+    text-decoration: underline;
+}
+.section-4 img{
+    margin-left:50px ;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.section-5{
+    margin-top: 30px;
+}
+
+.section-5 h2{
+    font-size: 50px;
+    text-decoration: underline;
+}
+.section-5 img{
+    margin-left:50px ;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.foot{
+    background-color: rgb(51, 50, 50);
+}
+.foot h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+.foot ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    margin-left: 38.5em;
+}
+.foot h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.foot h3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot h3 a:hover{
+    text-decoration: underline;
+}

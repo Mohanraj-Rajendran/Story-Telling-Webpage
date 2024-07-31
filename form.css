@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(90deg,#b400ff 0%, #009dff 80%);
+}
+div{
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    /* position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+    
+    margin-left: 500px;
+    margin-top: 40px;
+    /* top:50%;
+    left:50%;
+    transform:translate(-50%,-50%); */
+}
+form{
+    margin-left: 50px;
+    
+}
+div h2{
+    text-align: center;
+    padding: 20px;
+}
+label{
+    font-size: large;
+    font-weight: 500;
+}
+input[type="text"], input[type="email"] {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-bottom: rgb(83, 74, 74) solid 3px;
+}
+input::placeholder{
+    font-size: large;
+}
+/* input:focus{
+    border: none;
+} */
+select{
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-bottom: rgb(83, 74, 74) solid 3px;
+}
+textarea{
+    width: 250px;
+    height:fit-content;
+    border: none;
+    border-bottom: rgb(83, 74, 74) solid 3px;
+}
+textarea::placeholder{
+    font-size: large;
+}
+button{
+    width: 250px;
+    height: 40px;
+    background:linear-gradient(90deg,#b400ff 0%, #009dff 80%);
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    margin-top: 5px;
+    color: azure;
+}
+button:hover{
+    background: rgb(5, 5, 5);
+}
+ 
